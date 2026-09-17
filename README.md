@@ -1,59 +1,191 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# AmarShop — Laravel E-commerce Web Application
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A Laravel-based e-commerce web application built with PHP, Laravel, MySQL, Blade, JavaScript, jQuery, AJAX, and REST-oriented web development practices.
 
-## About Laravel
+## 📌 Project Overview
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+AmarShop is an e-commerce web application developed with Laravel. The project includes customer-facing shopping functionality, product-related interfaces, wishlist and comparison features, authentication, dashboard management, user permissions, website configuration, and database-driven content management.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+The project also demonstrates the migration and restructuring of an existing PHP/CodeIgniter-based application into the Laravel framework using Laravel's MVC architecture and modern application structure.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🚀 Key Features
 
-## Learning Laravel
+* User authentication and login functionality
+* Product browsing and product details
+* Shopping cart functionality
+* Wishlist management
+* Product comparison
+* Dashboard and administration features
+* User type and permission management
+* Website configuration and template management
+* Database-driven content
+* AJAX-based interactions
+* Responsive web interface
+* Laravel MVC architecture
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## 🛠️ Technologies Used
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Backend
 
-## Laravel Sponsors
+* PHP
+* Laravel
+* MySQL
+* MVC Architecture
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### Frontend
 
-### Premium Partners
+* HTML5
+* CSS3
+* JavaScript
+* jQuery
+* AJAX
+* Responsive Web Design
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+### Development Tools
 
-## Contributing
+* Git
+* GitHub
+* Composer
+* Vite
+* Visual Studio Code
+* XAMPP
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🏗️ Laravel Concepts Used
 
-## Code of Conduct
+* Routing
+* Controllers
+* Models
+* Blade Templates
+* Eloquent ORM
+* Database Migrations
+* Form Validation
+* CRUD Operations
+* Middleware
+* Authentication
+* Session Handling
+* Database Integration
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 📂 Project Structure
 
-## Security Vulnerabilities
+```text
+amarshop/
+├── app/
+│   ├── Http/
+│   └── Models/
+├── bootstrap/
+├── config/
+├── database/
+│   ├── migrations/
+│   ├── factories/
+│   └── seeders/
+├── public/
+│   └── assets/
+├── resources/
+│   ├── css/
+│   ├── js/
+│   └── views/
+├── routes/
+├── storage/
+├── tests/
+├── composer.json
+├── package.json
+└── vite.config.js
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## ⚙️ Installation
 
-## License
+### 1. Clone the repository
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```bash
+git clone https://github.com/robiulhossainbhuiyaa/amarshop.git
+cd amarshop
+```
+
+### 2. Install PHP dependencies
+
+```bash
+composer install
+```
+
+### 3. Create the environment file
+
+```bash
+copy .env.example .env
+```
+
+For Linux/macOS:
+
+```bash
+cp .env.example .env
+```
+
+### 4. Generate the application key
+
+```bash
+php artisan key:generate
+```
+
+### 5. Configure the database
+
+Update the database settings in `.env`.
+
+Example:
+
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=amarshop
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+### 6. Run migrations
+
+```bash
+php artisan migrate
+```
+
+### 7. Start the Laravel development server
+
+```bash
+php artisan serve
+```
+
+The application will be available at:
+
+```text
+http://127.0.0.1:8000
+```
+
+## 🔐 Environment & Security
+
+The `.env` file is intentionally excluded from version control.
+
+Do not commit:
+
+* Database passwords
+* API keys
+* SMTP credentials
+* Application secrets
+* Private production configuration
+
+Use `.env.example` as the configuration template.
+
+## 📚 Learning & Development
+
+This project is part of my practical development work with Laravel, PHP, MySQL, JavaScript, AJAX, MVC architecture, database integration, and application maintenance.
+
+## 👨‍💻 Author
+
+**Robiul Hossain**
+
+Web Developer | PHP | Laravel | CodeIgniter 4 | MySQL
+
+Email: [robiulhossainbhuiyan@gmail.com](mailto:robiulhossainbhuiyan@gmail.com)
+
+GitHub: https://github.com/robiulhossainbhuiyaa
+
+## ⭐ Repository
+
+This repository is maintained as part of my professional development and web development portfolio.
