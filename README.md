@@ -172,6 +172,24 @@ Do not commit:
 
 Use `.env.example` as the configuration template.
 
+## 📸 Screenshots
+
+### Homepage
+![AmarShop Homepage](public/screenshots/01-homepage.png)
+
+### Products
+![AmarShop Products](public/screenshots/02-products.png)
+
+### Product Details
+![AmarShop Product Details](public/screenshots/03-product-details.png)
+
+### Login
+![AmarShop Login](public/screenshots/04-login.png)
+
+### Dashboard
+![AmarShop Dashboard](public/screenshots/05-dashboard.png)
+
+
 ## 📚 Learning & Development
 
 This project is part of my practical development work with Laravel, PHP, MySQL, JavaScript, AJAX, MVC architecture, database integration, and application maintenance.
