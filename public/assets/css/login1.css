@@ -1,0 +1,490 @@
+			
+			/**========================================
+			*   registration 
+			=========================================*/
+
+			.hidden {
+				display: none;
+			}
+
+			#sectionsection  { 
+				
+				display: block; 
+				margin-top: -60px;  
+				margin-bottom: -100px; 
+			}
+			#sectionsection .registration .wrapper p {
+				font-size: 12px;
+				text-align: center;
+				color: #544848;
+				margin-bottom: 0;
+				margin-top: 0px;
+				display: block;
+				font-family: "Muli-Bold"; 
+			}
+			#sectionsection .registration .wrapper {
+			  min-height: 100vh;
+			  background-size: cover;
+			  background-repeat: no-repeat;
+			  display: flex;
+			  align-items: center;   
+			  
+			  
+			} 
+			#sectionsection .registration .wrapper img {
+				    
+			  	 
+			  	max-width: 100%; }
+			  
+			#sectionsection .registration .inner {
+			  max-width: 700px;
+			  margin: auto;
+			  background-color: rgba(255, 255, 255, 0.8);
+			  padding: 0px;  
+			}
+
+
+
+			#sectionsection .registration .inner {
+				padding: 15px  15px; 
+			}
+
+ 
+
+			#sectionsection .registration form {
+			  border: 2px solid #d3cccc;
+			  padding: 22px 25px 24px; 
+			}
+
+			#sectionsection .registration .form-group 
+			{
+			  display: flex; 
+			}
+
+
+			#sectionsection .registration .form-group .form-wrapper 
+			{
+				width: 100%; 
+			}
+				
+			#sectionsection .registration .form-group .form-wrapper:first-child 
+			{
+			  margin-right: 0px; 
+			}  
+			 
+			@media (max-width: 767px) 
+				{
+				  #sectionsection .registration .wrapper {
+					display: block; }
+
+				  #sectionsection .registration form {
+					padding: 0;
+					border: none; }
+				  #sectionsection .registration .form-group {
+					display: block; }
+					#sectionsection .registration .form-group .form-wrapper {
+				  width: 100%; }
+				  #sectionsection .registration .form-group .form-wrapper:first-child {
+					margin-right: 0px; }
+				 
+				  #sectionsection .registration .form-end {
+					display: block; }	
+
+					#sectionsection .registration .checkbox, .button-holder {
+					width: 100%; 
+					}
+				 
+				  #sectionsection .registration  .button-holder button {
+					float: none;
+					margin-top: 0; }
+				 
+				  #sectionsection .registration h3 {
+					font-size: 20px;
+					margin-bottom: 20px; } 
+				}
+
+			#sectionsection .registration .form-wrapper {
+			  margin-bottom: 10px; 
+			  }
+			 
+			  #sectionsection .registration .form-wrapper label {
+				margin-bottom: 5px;
+				display: block;
+				text-transform: uppercase;
+				font-family: "Muli-Bold"; }
+				
+
+			 
+			#sectionsection .registration .form-holder {
+			  position: relative; }
+			  
+			  #sectionsection .registration .form-holder .icone2 i{
+				top: 21px;
+				right: 30px;
+				font-size: 17px;
+				color: black; 
+				display: flex;
+				}
+				
+			#sectionsection .registration .form-holder .icone{
+				
+				position: absolute;
+				display: block;
+				font-size: 17px;
+				color: black;
+				padding-left: 54px;
+				padding-top:32px;
+			}
+				
+			#sectionsection .registration input, textarea, select,  .button-holder button {
+			  font-family: "Muli-Regular";
+			  color: #333;
+			  font-size: 14px; 
+			  
+			}
+
+			#sectionsection .registration .form-control {
+			  border: 1px solid #006400;
+			  display: block;
+			  width: 100%;
+			  height: 42px;
+			  padding: 0 20px 0 46px;
+			  color: #999;
+			  font-size: 15px; 
+			  }
+			  
+			#sectionsection .registration .form-control::-webkit-input-placeholder {
+			font-size: 14px;
+			transform: translateY(1px);
+			color: #999; 
+			}
+
+			#sectionsection .registration .form-control::-moz-placeholder {
+			font-size: 17px;
+			transform: translateY(5px);
+			color: #999; 
+			}
+
+			#sectionsection .registration .form-control:-ms-input-placeholder {
+			font-size: 17px;
+			transform: translateY(5px);
+			color: #999; 
+			}
+
+			#sectionsection .registration .form-control:-moz-placeholder {
+			font-size: 17px;
+			transform: translateY(5px);
+			color: #999; }
+
+			#sectionsection .registration p, h1, h2, h3, h4, h5, h6, ul {
+			  margin: 0; }
+			#sectionsection .registration .form-end {
+			  display: flex;
+			  align-items: center;
+			  margin-top: 5px; }
+			  
+			  
+			#sectionsection .registration .checkbox {
+			  position: relative;
+			  width: 50%;
+			  padding-left: 22px; }
+			  
+			  
+			  #sectionsection .registration .checkbox label {
+				cursor: pointer;
+				color: #999;
+				font-family: "Muli-SemiBold"; 
+				}
+				
+			#sectionsection .registration .checkbox input {
+				position: absolute;
+				opacity: 0;
+				cursor: pointer; 
+			}
+
+
+				
+				
+			#sectionsection .registration 
+			.checkbox input:checked ~ .checkmark:after {
+				display: block; }
+				
+			#sectionsection .registration .checkmark {
+			  position: absolute;
+			  top: 1px;
+			  left: 0;
+			  height: 15px;
+			  width: 16px;
+			  border-radius: 2px;
+			  background-color: #ebebeb;
+			  border: 1px solid #ccc; 
+			  color: #000;
+			  font-size: 10px;
+			  font-weight: bolder; 
+			}
+			  
+			  #sectionsection .registration .checkmark:after {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				display: none;
+				content: '\f26b'; }
+				
+				
+			#sectionsection .registration  .button-holder button {
+			  border: none;
+			  border-radius: 8px;
+			  float: right;
+			  width: 130px;
+			  height: 42px;
+			  cursor: pointer;
+			  background: #ea9f48;
+			  display: flex;
+			  align-items: center;
+			  justify-content: center;
+			  padding: 0; 
+			  font-size: 13px;
+			  color: #fff;
+			  text-transform: uppercase;
+			  font-family: "Muli-SemiBold";
+			  -webkit-transform: perspective(1px) translateZ(0);
+			  transform: perspective(1px) translateZ(0);
+			  position: relative;
+			  -webkit-transition-property: color;
+			  transition-property: color;
+			  -webkit-transition-duration: 0.3s;
+			  transition-duration: 0.3s; }
+			  
+			  
+			  
+			  #sectionsection .registration   .button-holder button::before {
+				content: "";
+				border-radius: 8px;
+				position: absolute;
+				z-index: -1;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				background: #f98805;
+				-webkit-transform: scaleX(0);
+				transform: scaleX(0);
+				-webkit-transform-origin: 50%;
+				transform-origin: 50%;
+				-webkit-transition-property: transform;
+				transition-property: transform;
+				-webkit-transition-duration: 0.3s;
+				transition-duration: 0.3s;
+				-webkit-transition-timing-function: ease-out;
+				transition-timing-function: ease-out; }
+				
+				
+			  #sectionsection .registration button:hover::before, button:active::before, button:focus::before {
+				-webkit-transform: scaleX(1);
+				transform: scaleX(1); }
+
+
+
+			#sectionsection .registration .button-holder {
+			  width: 50%; }
+
+			#sectionsection .registration a:hover {
+			  text-decoration: none; }
+			  
+			#sectionsection .registration :focus {
+			  outline: none; }
+
+
+			  
+			#sectionsection .registration h3 {
+	  
+			  font-size: 25px;
+			  font-family: "Abril_Fatface";
+			  text-align: center;
+			  margin-bottom: 5px;
+			  color: #544848;
+			  letter-spacing: 3px; }
+
+			#sectionsection .registration .select::after {
+			  content: "\f2f9";
+			  font-family: Material-Design-Iconic-Font;
+			  position: absolute;
+			  top: 50%;
+			  transform: translateY(-50%);
+			  right: 12px;
+			  font-size: 15px;
+			  color: #999; 
+			  }
+			#sectionsection .registration .checkbox p {
+				padding-left:5px;
+
+			}
+					  
+			#sectionsection .registration select {
+			  /* -moz-appearance: none;
+			  -webkit-appearance: none; */
+			  cursor: pointer;
+			  padding-left: 20px; }
+			  
+			#sectionsection .registration select option[value=""][disabled] {
+			display: none; }
+						
+				
+				
+			#sectionsection .registration .inner form .trams{
+			  font-family: Georgia, serif;
+			  font-size: 12px;
+			  color: #4B0082;
+			  text-transform: capitalize;
+			  text-align: center;
+			  font-weight: 700;
+			  margin-bottom: 5px;
+			}
+				
+			#sectionsection .registration .inner form .tramsElit{
+			  font-family: Georgia, serif;
+			  font-size: 12px;
+			  color: #4B0082;
+			  text-transform: capitalize;
+			  text-align: left;
+			  font-weight: 700;
+			  margin-bottom: 5px;
+			} 
+			#sectionsection .registration .marginmin .inner{
+			  margin-left:-15px;	
+			  margin-right:-15px;	
+			  margin-top:-70px;	
+			  margin-bottom:-70px;
+			}
+			/**========================================
+			* end registration 
+			=========================================*/
+
+			  
+			/*--------------------------------------------------------------
+			# #sectionsections General
+			--------------------------------------------------------------*/
+			#sectionsection {
+			  padding: 60px 0;
+			  overflow: hidden;
+			}
+
+			/* .#sectionsection-bg {
+			  background-color: #f6f3f2;
+			}
+
+			.#sectionsection-title {
+			  padding-bottom: 30px;
+			  text-align: center;
+			} */
+
+			/* .#sectionsection-title h2 {
+			  font-size: 28px;
+			  font-weight: 300;
+			  margin-bottom: 20px;
+			  padding-bottom: 0;
+			  color: #65534c;
+			}
+
+			.#sectionsection-title h2 strong {
+			  font-weight: 700;
+			}
+
+			.#sectionsection-title p {
+			  margin-bottom: 0;
+			} */
+			   
+
+			 /*--------------------------------------------------------------
+			# add pay address start
+			--------------------------------------------------------------*/
+
+
+			.form-row {
+			  display: flex;
+			  margin-bottom: 20px; }
+			  .form-row .form-holder {
+				width: 50%;
+				margin-right: 20px; }
+				.form-row .form-holder:last-child {
+				  margin-right: 0; }
+				.form-row .form-holder.w-100 {
+				  width: 100%;
+				  margin-right: 0; }
+			  .form-row .form-group {
+				width: 50%;
+				display: flex; }
+				.form-row .form-group .form-holder {
+				  margin-right: 21px; }
+				  .form-row .form-group .form-holder:last-child {
+					margin-right: 0; }
+					
+					
+					
+
+			.form-holder {
+			  position: relative; }
+			  .form-holder i {
+				position: absolute;
+				top: 70%;
+				transform: translateY(-50%);
+				right: 20px;
+				font-size: 16px; }
+				.form-holder i.zmdi-eye {
+				  cursor: pointer; }
+				  
+				  
+
+			.form-control {
+			  height: 42px;
+			  border: 1px solid #e6e6e6;
+			  width: 100%;
+			  background: none;
+			  padding: 0 35px 0 19px;
+			  color: #999; }
+			  .form-control:focus {
+				border-color: #8eb852; }
+			  .form-control::-webkit-input-placeholder {
+				color: #999; }
+			  .form-control::-moz-placeholder {
+				color: #999; }
+			  .form-control:-ms-input-placeholder {
+				color: #999; }
+			  .form-control:-moz-placeholder { 
+				color: #999; }
+			  
+
+			@media (max-width: 991px) {
+			  .steps ul li .step-arrow {
+				top: 45%;
+				left: 102%; }
+
+			  .cart_totals {
+				width: 74%; } }
+			@media (max-width: 767px) {
+			  body {
+				background: none;
+				height: auto;
+				display: block; }
+
+			  .steps ul li .step-arrow {
+				top: 35%; }
+
+			 
+			  .form-row {
+				display: block; }
+				.form-row .form-holder {
+				  width: 100%;
+				  margin-right: 0;
+				  margin-bottom: 25px; }
+				.form-row .form-group {
+				  width: 100%;
+				  display: block; 
+				}
+				
+			}
+
+			 /*--------------------------------------------------------------
+			# add pay address end
+			-------------------------------------------------------------- */
